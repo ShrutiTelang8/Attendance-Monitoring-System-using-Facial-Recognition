@@ -1,3 +1,7 @@
 # Attendance-Monitoring-System-using-Facial-Recognition
-The system captures student faces using camera. It then converts them into gray-scale. Thee Haar cascade classifier detects face and eyes. Local Binary Patterns (LBP) extracts features and enhances them. These images are normalizedand trained under student login credentials.  
-System recognizes student faces and stores details in an excel sheet with date and time of attendance.
+
+##This attendance monitoring system used facial recognition technology for attendance verification. The system captured student faces using webcam (60 snapshots of a student in a frame of given size). It then used OpenCV package to convert these snapshots into grayscale. A Haar cascade classifier was used for detecting the face structure and eyes. The normalized images were stored under student login credentials and the data was trained using a Local Binary Patterns(LBP) classifier. The system could recognizes student faces and stored details in an excel sheet with date and time of student attendance.  
+
+##GUI using for this project was developed using Tkinter!
+
+
